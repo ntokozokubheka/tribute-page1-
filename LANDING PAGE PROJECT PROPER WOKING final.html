@@ -1,0 +1,247 @@
+
+<Html>
+   
+<head>
+
+<href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+
+/* Style The Dropdown Button */
+.dropbtn{
+   background-color: grey;
+          color: white;
+          padding: 25px;
+          font-size: 15px;
+          border: none;
+          cursor: pointer;
+          border-radius:25px;
+      }
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+            top: 6%;
+            left:89%;
+         
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #f9f9f9;
+          min-width: 160px;
+          box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          z-index: 1;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: grey}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: black;
+}
+
+/* MARIN SPACING*/
+.add-s{
+
+margin-bottom:20px; 
+
+}
+.add-sp{
+
+  margin-right:50px;
+
+ }
+
+ .add-space{
+margin-right:20px;
+
+ }
+
+.circular{
+border-radius:12px;
+
+}
+
+.thin-red-border {
+        border-color: red;
+        border-width: 1px;
+        border-style: solid;
+  }
+
+h1{
+     color: lightgrey;
+      font-weight:bolder; 
+    font-style:italic;
+        
+   
+}
+.b-one{
+
+      background-color:none;
+      border: black;
+      color: white;
+      padding: 12px 12px;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 10px;
+
+}
+
+ .b-two:hover {
+  background: black;
+}
+
+
+.boxes{
+    position: relative;
+    top: 0%;
+    left: 72%;
+    transform: translateX(0%) translateY(0%);
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.boxi{
+    position: relative;
+    top:80%;
+    left: 0%;    
+}
+
+
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 45%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: grey;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; 
+  cursor: pointer;
+}
+
+form.example button:hover{
+  background: black;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+body {
+    background-color: white);
+}
+
+
+.resize {
+  width:150px;
+  height:100px;
+}
+
+</style>
+</head>
+<body >
+
+  
+  <div class="dropdown">
+  <button class=" dropbtn"><i class="fa fa-bars"></i></button>
+  <div class="dropdown-content">
+    <a href="#"> EMAIL</a>
+    <a href="#"> CONTACTS</a>
+    <a href="#">WEB APPLICATIONS </a>
+    <a href="#">ACCOUNTS</a>
+    <a href="#">FREE</a>
+  </div>
+</div>
+
+
+
+<div class="boxes">
+<button class="btn b-one b-two circular add-space "><i class="fa fa-cloud-upload"></i></button class="btn b-one b-two  ">
+
+<button class="btn b-one b-two circular add-space "><i class="fa fa-bell-o"></i></button>
+<button class="btn b-one b-two circular " ><i class="fa fa-envelope-o"></i></button>
+
+
+
+</div>
+  <div class="container">
+
+<div>
+<img src="cat.jpg" alt="cat pic">
+
+  <h1>SEARCH THE NET</h1>
+</div>
+
+
+ <form class="example" action="action_page.php">
+  <input type="text" placeholder="write a keyword" name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
+
+<button class="btn b-one b-two add-sp ">FEED BACK</button>
+
+
+<button class="btn b-one b-two">TYPE SOME</button>
+ 
+</div>
+<div class="boxi">
+<div class="col-xs-4">
+  <button class="btn b-one b-two add-s "><i class="fa fa-youtube"></i></button>
+  </div>
+<div class="col-xs-4">
+<button class="btn b-one b-two add-s " ><i class="fa fa-amazon"></i></button>
+</div>
+<div class="col-xs-4">
+<button class="btn b-one b-two "><i class="fa fa-facebook-official"></i></button>
+</div>
+</div>
+</body>
+</html>
